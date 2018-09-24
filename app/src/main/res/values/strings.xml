@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Prospectos</string>
+
+    <string name="text_user_name">Correo Electrónico</string>
+    <string name="text_password">Contraseña</string>
+    <string name="text_login">Ingresar</string>
+    <string name="text_please_wait">Espera por favor...</string>
+
+    <string name="empty_fields">Ingrese todos los datos c;</string>
+    <string name="wrong_email_format">El formato de Email es incorrecto</string>
+    <string name="user">Usuario</string>
+    <string name="text_validate_internet">Por favor verifique su conexión a internet</string>
+
+    <string name="text_aceptar">Aceptar</string>
+    <string name="text_keep">Recordar</string>
+    <string name="title_activity_prospect_list_data_base">ProspectListDataBaseActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_prospects_list_data_base">Opciones</string>
+
+
+    <string name="menu_options">Opciones</string>
+    <string name="menu_prospectsList">Lista de Prospectos</string>
+    <string name="menu_logOut">Salir</string>
+    <string name="prospectsName">Prospectos</string>
+
+    <string name="dataBaseStateAvaliable">Revise la lista de prospectos en el menú</string>
+    <string name="title_activity_prospects_list">ProspectsList</string>
+    <string name="title_activity_prospect_list">Lista de prospectos</string>
+
+    <string name="text_cancel">Cancelar</string>
+    <string name="text_edit">Editar</string>
+
+
+    <string name="text_name">Nombre</string>
+    <string name="text_lastName">Apellido</string>
+    <string name="text_identification">Identificación</string>
+    <string name="text_telephone">Teléfono</string>
+
+    <string name="text_accept">Aceptar</string>
+    <string name="text_cancelProcess">Cancelar</string>
+
+    <string name="text_correct_drop_prospect">El prospecto se ha eliminado correctamente</string>
+
+    <string name="text_failed_edit_prospect">No se pudo editar información del prospecto</string>
+    <string name="text_correct_edit_prospect">La información del prospecto se ha modificado correctamente</string>
+    <string name="text_fill_fields">Todos los campos excepto identificación, son obligatorios</string>
+
+
+</resources>

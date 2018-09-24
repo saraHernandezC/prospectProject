@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="46dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="12dp"
+            android:layout_weight="0.7"
+            android:gravity="center"
+            android:text="@string/text_edit"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/colorLoginButton"
+            android:textSize="25sp" />
+
+        <ImageView
+            android:id="@+id/imageView_status"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_gravity="center"
+            android:layout_margin="15dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="12dp"
+            android:src="@drawable/ic_clear_black_24dp" />
+
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@color/colorLoginButton" />
+
+
+<View
+    android:layout_width="match_parent"
+    android:layout_height="15dp">
+</View>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/editText_name"
+            android:layout_width="200dp"
+            android:layout_height="42dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginStart="10dp"
+            android:hint="@string/text_name"
+            android:textColor="@color/colorBlack"
+            android:textColorHint="@color/colorGrayDot"
+            android:maxLength="20"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="15dp">
+        </View>
+
+        <EditText
+            android:id="@+id/editText_lastName"
+            android:textColorHint="@color/colorGrayDot"
+            android:layout_width="200dp"
+            android:layout_height="42dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginStart="10dp"
+            android:textColor="@color/colorBlack"
+            android:hint="@string/text_lastName"
+            android:maxLength="20"
+           />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="15dp">
+        </View>
+
+        <EditText
+            android:id="@+id/editText_identification"
+            android:textColorHint="@color/colorGrayDot"
+            android:layout_width="200dp"
+            android:layout_height="42dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginStart="10dp"
+            android:textColor="@color/colorBlack"
+            android:hint="@string/text_identification"
+            android:enabled="false"
+            android:maxLength="20"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="15dp">
+        </View>
+        <EditText
+            android:id="@+id/editText_telephone"
+            android:textColorHint="@color/colorGrayDot"
+            android:layout_width="200dp"
+            android:layout_height="42dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginStart="10dp"
+            android:textColor="@color/colorBlack"
+            android:hint="@string/text_telephone"
+            android:maxLength="20"/>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="8dp">
+    </View>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/button_pending"
+            android:layout_width="23dp"
+            android:layout_height="23dp"
+            android:layout_marginEnd="7dp"
+            android:layout_marginStart="20dp"
+            android:background="@drawable/time" />
+
+        <Button
+            android:id="@+id/button_accepted"
+            android:layout_width="23dp"
+            android:layout_height="23dp"
+            android:layout_marginEnd="7dp"
+            android:background="@drawable/accepted"
+            />
+        <Button
+            android:id="@+id/button_success"
+            android:layout_width="23dp"
+            android:layout_height="23dp"
+            android:layout_marginEnd="7dp"
+            android:background="@drawable/success"
+            />
+        <Button
+            android:id="@+id/button_cancelTwo"
+            android:layout_width="23dp"
+            android:layout_height="23dp"
+            android:layout_marginEnd="7dp"
+            android:background="@drawable/cancel"
+            />
+        <Button
+            android:id="@+id/button_disabled"
+            android:layout_width="23dp"
+            android:layout_height="23dp"
+            android:layout_marginEnd="5dp"
+            android:background="@drawable/disabled"
+            />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="15dp" />
+    <TextView
+        android:layout_marginStart="20dp"
+        android:id="@+id/textView_state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorLoginButton"
+        />
+
+
+<View
+    android:layout_width="match_parent"
+    android:layout_height="10dp"/>
+
+
+
+</LinearLayout>
